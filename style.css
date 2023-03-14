@@ -1,0 +1,397 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229,231,235)
+}
+
+
+
+
+li,a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    /* padding: 30px 10%; */
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links{
+    list-style-type: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav-links li ,a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li,a:hover{
+    color: aqua;
+}
+.nav-links2{
+    list-style-type: none;
+}
+.nav-links2 li{
+    display: inline-block
+
+    
+
+}
+.nav-links2 li ,a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links2 li,a:hover{
+    color: coral;
+}
+.b1:hover{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    transition: all 0.3s ease 0s;
+
+}
+.b1:hover{
+    color: coral;
+}
+.red{
+    float: right;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(241,40,90);
+    border-radius: 350px / 250px 0px 0px 750px;
+    background-image: url(image/vecteezy_black-fashion-sport-shoe-isolated-on-white-background_3358356-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+background-position:  bottom center;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+}
+.phrase{
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 60px;
+
+}
+.phraseS{
+    font-size: 20px;
+    
+}
+.b2{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px 25px 20px 23px;
+    background-color: rgb(241,40,90);
+    border: rgb(241,40,90);
+    color: azure;
+}
+ .b3{
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 20px 25px 20px 23px;
+    background-color: rgb(241,40,90);
+    border: rgb(241,40,90);
+    color: azure;
+}
+.puma{
+    width: 500%;
+    height: 60%;
+    background-image: linear-gradient(to bottom,blue,pink );
+    border-radius: 25%;
+}
+.best{
+margin-left: 60%;
+
+}
+.p-collection{
+display: flex;
+gap: 10%;
+
+}
+.nike{
+width: 400%;
+height: 60%;
+background-image: linear-gradient(to bottom,blue,pink );
+border-radius: 25%;
+
+}
+.n-collection{
+display: flex;
+gap: 10%;
+}
+.adidas{
+width: 400%;
+height: 60%;
+background-image: linear-gradient(to bottom,blue,pink );
+border-radius: 25%;
+}
+
+.a-collection{
+    display: flex;
+gap: 8%;
+margin-left: 8%;
+
+}
+.B-collection {
+display: flex;
+gap: 20%;
+margin-left: 10%;
+margin-right: 5%;
+
+
+
+}
+.Best{
+margin-top: 8%;
+margin-right: 30%;
+}
+.feature{
+margin-left: 40%;
+}
+.shoesicons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+}
+.New{
+margin-left: 40%;   
+}
+.leafshoe{
+    width: 50%;
+}
+.second{
+    display: flex;
+    gap: 5%;
+}
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.pink{
+    
+   background-color: palevioletred; 
+   border: solid;
+   border-color: palevioletred;
+   border-width: 100%;
+   border-radius: 12%;
+   text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-size: contain;
+   padding: 10%;
+    
+
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    color: beige;
+    padding: 5%;
+    
+}
+.bc{
+    background-color:red;
+}
+.words{
+    margin-left: 10%;
+}
+.view1{
+    background-color: palevioletred;
+    /* padding:0px,300px,0px,300px ; */
+    margin-top: -20em;
+}
+.see{
+    padding: 2%;
+    margin-left: 45%;
+}
+li,a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    /* padding: 30px 10%; */
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links{
+    list-style-type: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav-links li ,a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li,a:hover{
+    color: aqua;
+}
+.nav-links2{
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.nav-links2li{
+    display: inline-block;
+    justify-content: space-between;
+  
+
+    
+
+}
+.nav-links2 li ,a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links2 li,a:hover{
+    color: coral;
+}
+.b1:hover{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    transition: all 0.3s ease 0s;
+
+}
+.b1:hover{
+    color: coral;
+}
+.red2{
+    float: left;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(241,40,90);
+    border-radius:  0px 750px 350px / 350px 0px;
+    margin-bottom: 8%;
+
+}
+.shoered{
+    width: 90%;
+    margin-top: 50%;
+    margin-left: 20%;
+    height: 70%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    color: beige;
+    padding: 5%;
+    margin-top: 5%;
+    
+}
+.firstp{
+    width: 25%;
+}
+.secondp{
+    width:25%;
+}
+.thirdp{
+    width: 25%;
+}
+.images1{
+    margin-left: 20%;
+}
+.content{
+    display: flex;
+    gap: 5%;
+    
+}
+.word2{
+    text-align: center;
+}
+.content2{
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+.content2 img {
+    background-color:white;
+}
+.sidewords{
+    margin-top: 50%;
+}
+.images{
+    background-color: white;
+}
+.white{                      
+    background-color: white;
+}
+.B-collection img{
+    background-color: white;
+}
+.icon1{
+    background-color: black;
+    color: white;
+    height:30px;
+    
+}
+.icon2{
+    padding-left: 10px;
+padding-right: 10px;
+height: 30px;
+}
+.i2{background-image: linear-gradient(to bottom,white,white);
+    border-radius: 25%;
+background-color: white;
+}
+.minimal{
+    color: orangered;
+}
+.nike1{
+    font-size: larger;
+    color: black;
+}
+
+@media only screen and (max-width:664){
+    .frame{
+        flex-direction: column;
+    }                                                                                                       
+    
+}
+@media only screen and (min-width:481px) and (max-width:786px){
+    .frame{
+        flex-direction: column;
+    }
+}
+
+
+
+   
+    
+
+
+
+
+
+
+
