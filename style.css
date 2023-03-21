@@ -164,7 +164,7 @@ margin-right: 30%;
 margin-left: 40%;
 }
 .shoesicons{
-    display: flex;
+display: flex;
     justify-content: space-between;
     margin-right: 15%;
     margin-left: 15%;
@@ -330,10 +330,12 @@ header{
     text-align: center;
 }
 .content2{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
    
     justify-content: space-evenly;
 }
+
 .content2 img {
     background-color:white;
     
@@ -343,6 +345,8 @@ header{
 }
 .images{
     background-color: white;
+    /* display: grid; */
+    /* grid-template-columns: auto auto; */
 }
 .white{                      
     background-color: white;
@@ -373,13 +377,615 @@ background-color: white;
     color: black;
 }
 
-
-@media only screen  and (max-width:480){
-    .frame{
-        flex-direction: column;
-    }                                                                                                       
+.red3{
+    float: right;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(241,40,90);
+    border-radius: 150px / 100px 0px 200px 750px;
     
 }
+.About{
+    margin-left: 40%;   
+    }
+.shoe-purple{
+    width: 300px;
+    margin-left: 15%;
+    height: 320px;
+}
+.short{
+    font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.one{
+    display: flex;
+gap: 10%;
+}
+.b5{
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 15px 25px 20px 23px;
+    background-color: rgb(241,40,90);
+    border: rgb(241,40,90);
+    color: azure; 
+}
+.two{
+    display: flex;
+gap: 2%;
+
+}
+.shoe-red{
+    width: 400px;
+    height: 320px
+}
+.vision{
+    margin-left: 8%;
+}
+.three{
+    display: flex;
+gap: 10%;
+}
+.red4{
+    float: right;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(241,40,90);
+    border-radius: 350px / 250px 0px 50px 750px;
+    
+}
+.questions{
+    margin-left: 20%;
+    gap: 5%;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.input{
+    width: 600px;
+    border-radius: 20%/20%;
+    margin: 40%;
+}
+.name1{
+    font-size: large;
+    font-weight: 0;
+    margin-left: 20%;
+    background-color: white; 
+    border: solid;
+    border-color: white;
+    border-width: 5%;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-size: contain;
+    padding: 10px 400px 20px 20px;
+}
+.name2{
+    font-size: large;
+    font-weight: 0;
+    margin-left: 20%;
+    background-color: white; 
+    border: solid;
+    border-color: white;
+    border-width: 5%;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-size: contain;
+    padding: 10px 400px 200px 20px;
+}
+.b5{
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 15px 25px 20px 23px;
+    background-color: rgb(241,40,90);
+    border: rgb(241,40,90);
+    color: azure;
+    margin-left: 24%;
+
+}
+
+
+@media only screen and ( max-width: 700px){
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(229,231,235)
+    }
+    
+    
+    
+    
+    li,a{
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: black;
+        text-decoration: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        /* padding: 30px 10%; */
+    }
+  
+    .logo{
+        cursor: pointer;
+    }
+    .nav-links{
+        list-style-type: none;
+    }
+    .nav-links li{
+        display: inline-block;
+        padding: 0px 20px;
+    
+    }
+    .nav-links li ,a{
+        transition: all 0.3s ease 0s;
+    }
+    .nav-links li,a:hover{
+        color: aqua;
+    }
+    .nav-links2{
+        list-style-type: none;
+    }
+    .nav-links2 li{
+        display: inline-block
+    
+        
+    
+    }
+    .nav-links2 li ,a{
+        transition: all 0.3s ease 0s;
+    }
+    .nav-links2 li,a:hover{
+        color: coral;
+    }
+    .b1:hover{
+        padding: 9px 25px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    
+        transition: all 0.3s ease 0s;
+    
+    }
+    .b1:hover{
+        color: coral;
+    }
+    .red{
+        float: right;
+        width: 250px;
+        height: 200px;
+        background-color: rgb(241,40,90);
+        border-radius: 350px / 250px 0px 0px 750px;
+        background-image: url(image/vecteezy_black-fashion-sport-shoe-isolated-on-white-background_3358356-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: 150%;
+    background-position:  bottom center;
+    }
+    .f1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .phrase{
+        font-size: 12px;
+        font-weight: bold;
+        padding-left: 60px;
+    
+    }
+    .phraseS{
+        font-size: 20px;
+        
+    }
+    .b2{
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 15px 25px 20px 23px;
+        background-color: rgb(241,40,90);
+        border: rgb(241,40,90);
+        color: azure;
+    }
+     .b3{
+        cursor: pointer;
+        border-radius: 100px;
+        padding: 15px 25px 20px 23px;
+        background-color: rgb(241,40,90);
+        border: rgb(241,40,90);
+        color: azure;
+    }
+    .puma{
+        width: 500%;
+        height: 60%;
+        background-image: linear-gradient(to bottom,blue,pink );
+        border-radius: 25%;
+    }
+    
+    .p-collection{
+    display: flex;
+    /* gap: 10%; */
+    
+    }
+    .nike{
+    width: 400%;
+    height: 60%;
+    background-image: linear-gradient(to bottom,blue,pink );
+    border-radius: 25%;
+    
+    }
+    .n-collection{
+    display: flex;
+    /* gap: 10%; */
+    }
+    .adidas{
+    width: 400%;
+    height: 60%;
+    background-image: linear-gradient(to bottom,blue,pink );
+    border-radius: 25%;
+    }
+    
+    .a-collection{
+        display: flex;
+    /* gap: 8%; */
+    margin-left: -8%;
+    
+    }
+    .B-collection {
+    display: flex;
+    gap: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+    
+    
+    }
+    .Best{
+        display: grid;
+        grid-template-columns: auto ;
+    /* margin-top: 8%; */
+    /* margin-right: 30%; */
+    margin-left: -8%;
+    }
+    .feature{
+    margin-left: 40%;
+    }
+    .shoesicons{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        margin-right: 15%;
+        margin-left: 15%;
+        
+    }
+    .New{
+    margin-left: 40%;   
+    }
+    .leafshoe{
+        width: 50%;
+    }
+    .second{
+        display: flex;
+        gap: 5%;
+    }
+    .third{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    .pink{
+        
+       background-color: palevioletred; 
+       border: solid;
+       border-color: palevioletred;
+       border-width: 100%;
+       border-radius: 12%;
+       text-align: center;
+       margin-left: 10%;
+       margin-right: 10%;
+       background-size: contain;
+       padding: 10%;
+        
+    
+    }
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: red;
+        color: beige;
+        padding: 5%;
+        
+    }
+    .bc{
+        background-color:red;
+    }
+
+    .view1{
+        background-color: palevioletred;
+        /* padding:0px,300px,0px,300px ; */
+        margin-top: -20em;
+    }
+    .see{
+        padding: 2%;
+        margin-left: 45%;
+    }
+    li,a{
+        font-family: sans-serif;
+        font-weight: 500;
+        /* font-size: 16px; */
+        color: black;
+        text-decoration: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        /* padding: 30px 10%; */
+    }
+    .header img{
+width: 100%;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    .nav-links{
+        list-style-type: none;
+    }
+    .nav-links li{
+        display: inline-block;
+        padding: 0px 20px;
+    
+    }
+    .nav-links li ,a{
+        transition: all 0.3s ease 0s;
+    }
+    .nav-links li,a:hover{
+        color: aqua;
+    }
+    .nav-links2{
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    .nav-links2li{
+        display: inline-block;
+        justify-content: space-between;
+      
+    
+        
+    
+    }
+    .nav-links2 li ,a{
+        transition: all 0.3s ease 0s;
+    }
+    .nav-links2 li,a:hover{
+        color: coral;
+    }
+    .b1:hover{
+        padding: 9px 25px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    
+        transition: all 0.3s ease 0s;
+    
+    }
+    .b1:hover{
+        color: coral;
+    }
+    .red2{
+        float: left;
+        width: 500px;
+        height: 700px;
+        background-color: rgb(241,40,90);
+        border-radius:  0px 750px 350px / 350px 0px;
+        margin-bottom: 8%;
+    
+    }
+    .shoered{
+        width: 90%;
+        margin-top: 50%;
+        margin-left: 20%;
+        height: 70%;
+    }
+    .footer{
+        display: flex;
+        /* justify-content: space-evenly; */
+        background-color: red;
+        color: beige;
+        /* padding: 5%; */
+        margin-top: 5%;
+        
+    }
+    .firstp{
+        width: 25%;
+    }
+    .secondp{
+        width:25%;
+    }
+    .thirdp{
+        width: 25%;
+    }
+    .images1{
+        margin-left: 20%;
+    }
+    .content{
+        display: flex;
+        /* gap: 5%; */
+        
+    }
+    .word2{
+        text-align: center;
+    }
+    .content2{
+    display: grid;
+    grid-template-columns: auto auto;
+        
+       
+        /* justify-content: space-evenly; */
+    }
+    .content2 img {
+        background-color:white;
+        
+    }
+    .sidewords{
+        margin-top: 50%;
+    }
+    .images{
+        background-color: white;
+        
+    }
+    .white{                      
+        background-color: white;
+    }
+    .B-collection img{
+        background-color: white;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .icon1{
+        background-color: black;
+        color: white;
+        height:30px;
+        
+    }
+    .icon2{
+        padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    }
+    .i2{background-image: linear-gradient(to bottom,white,white);
+        border-radius: 25%;
+    background-color: white;
+    }
+    .minimal{
+        color: orangered;
+    }
+    .nike1{
+        font-size: larger;
+        color: black;
+    }
+    
+    .red3{
+        float: right;
+        width: 500px;
+        height: 150px;
+        background-color: rgb(241,40,90);
+        border-radius: 150px / 100px 0px 200px 750px;
+        
+    }
+    .About{
+        margin-left: 40%;   
+        }
+    .shoe-purple{
+        width: 300px;
+        margin-left: 15%;
+        height: 320px;
+    }
+    .short{
+        font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+    }
+    .one{
+        display: flex;
+    gap: 10%;
+    }
+    .b5{
+        cursor: pointer;
+        border-radius: 100px;
+        padding: 15px 25px 20px 23px;
+        background-color: rgb(241,40,90);
+        border: rgb(241,40,90);
+        color: azure; 
+    }
+    .two{
+        display: flex;
+    gap: 2%;
+    
+    }
+    .shoe-red{
+        width: 400px;
+        height: 320px
+    }
+    .vision{
+        margin-left: 8%;
+    }
+    .three{
+        display: flex;
+    gap: 10%;
+    }
+    .red4{
+        float: right;
+        width: 500px;
+        height: 700px;
+        background-color: rgb(241,40,90);
+        border-radius: 350px / 250px 0px 50px 750px;
+        
+    }
+    .questions{
+        margin-left: 20%;
+        gap: 5%;
+        font-weight: 900;
+        font-size: xx-large;
+    }
+    .input{
+        width: 600px;
+        border-radius: 20%/20%;
+        margin: 40%;
+    }
+    .name1{
+        font-size: large;
+        font-weight: 0;
+        margin-left: 20%;
+        background-color: white; 
+        border: solid;
+        border-color: white;
+        border-width: 5%;
+        border-radius: 30px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-size: contain;
+        padding: 10px 400px 20px 20px;
+    }
+    .name2{
+        font-size: large;
+        font-weight: 0;
+        margin-left: 20%;
+        background-color: white; 
+        border: solid;
+        border-color: white;
+        border-width: 5%;
+        border-radius: 30px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-size: contain;
+        padding: 10px 400px 200px 20px;
+    }
+    .b5{
+        cursor: pointer;
+        border-radius: 100px;
+        padding: 15px 25px 20px 23px;
+        background-color: rgb(241,40,90);
+        border: rgb(241,40,90);
+        color: azure;
+        margin-left: 24%;
+    
+    }
+
+
+
+}
+    
+
+
+
 
 
 
