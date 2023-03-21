@@ -23,6 +23,7 @@ header{
     align-self: center;
     /* padding: 30px 10%; */
 }
+
 .logo{
     cursor: pointer;
 }
@@ -511,6 +512,10 @@ gap: 10%;
         justify-content: space-between;
         align-self: center;
         /* padding: 30px 10%; */
+    }
+    .header img{
+
+
     }
   
     .logo{
